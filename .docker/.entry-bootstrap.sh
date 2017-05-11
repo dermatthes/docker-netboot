@@ -35,7 +35,12 @@ echo "Downloading netboot image..."
 
 /opt/variant/debian/download-pxe.sh
 
+echo "Starting apache2..."
+
+service apache2 start
 echo "Starting dnsmasq..."
+
+
 
 dnsmasq \
     --dhcp-range=$DHCP_RANGE_SET \

@@ -4,5 +4,5 @@
 set -e
 
 
-apt-get install -y dnsmasq pxelinux syslinux wget net-tools openssh-client
+apt-get install -y dnsmasq pxelinux syslinux wget net-tools openssh-client apache2
 
