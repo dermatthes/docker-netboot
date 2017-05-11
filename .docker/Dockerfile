@@ -6,7 +6,6 @@ MAINTAINER Matthias Leuffen <matthes@leuffen.de>
 
 WORKDIR /root/
 
-RUN apt-get update
 
 ADD .docker/.dockerfile-install.sh /root/
 ADD .docker/install_recipe /root/install_recipe
